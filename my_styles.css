@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    background-color: lightseagreen;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+div:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.albertico {
+    background-color: lightcyan;
+    border: 10px dashed blue;
+    padding: 8px;
+    margin: 2cm;
+    width: 50%;
+    height: 200px;
+}
+
+div > h2 {
+    background-color: yellow;
+}
+
+.juanito {
+    color: brown;
+    border: 1px dashed;
+}
+
+.pepito {
+    font-size: 10px;
+    font-family: cursive;
+}
+
+#my_id{
+    background-color: coral;
+    font-weight: bold;
+}
+
+#carlitos{
+    color: darkgreen;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color:magenta;
+}
+
+a:active {
+    color: blue;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p::first-line {
+    color: #0000ff;
+
+}
+
+h2::before {
+    content: url(whatsapp_logo.png);
+}
+
+::selection{
+    color:red;
+    background: yellow;
+}
+
+.sena {
+    background-color: lightcyan;
+    border: 10px dashed blue;
+    padding: 8px;
+    margin: 2cm;
+    width: 50%;
+    height: 200px;
+}
+
+[class^="se"] {
+    font-family: monospace;
+}
