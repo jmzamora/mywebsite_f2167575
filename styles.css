@@ -1,47 +1,85 @@
-a:link {
-    color: red;
+* {
+    box-sizing: border-box;
 }
 
-a:visited {
-    color: green;
-}
-
-a:hover {
-    color:magenta;
-}
-
-a:active {
-    color: blue;
-}
-
-p::first-letter {
-    color: #ff0000;
-    font-size: xx-large;
-}
-
-p::first-line {
-    color: #0000ff;
+a {
+    text-decoration: none;
 
 }
 
-h2::before {
-    content: url(whatsapp_logo.png);
+
+.my_overflow {
+    width: 30.3%; 
+    height: 100px; 
+    background-color: lightblue; 
+    border: blue 2px solid; 
+    overflow: auto;
 }
 
-::selection{
-    color:red;
-    background: yellow;
+.relative_positon {
+    position: fixed;
+    right: 100px;
+    bottom: 0;
+    margin: 10px;
+    border: 2px green solid;
 }
 
-.sena {
-    background-color: lightcyan;
-    border: 10px dashed blue;
-    padding: 8px;
-    margin: 2cm;
-    width: 50%;
-    height: 200px;
+h2 {
+    position:sticky;
+    top: 0;
+    border: 2px dotted blue;
+} 
+
+img {
+    float: left;
+    margin-right: 10px;
 }
 
-[class^="se"] {
-    font-family: monospace;
+.menu {
+    margin: 20px;
+    padding: 20px;
+    clear: left;
 }
+
+#but1 {
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#but1:hover {
+    background-color: antiquewhite;
+}
+
+#but2 {
+    float: left;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+#but2:hover {
+    background-color: antiquewhite;
+}
+
+#but3 {
+    float: left;
+    padding: 10px;
+    background-color:lightcoral;
+}
+
+#but3:hover {
+    background-color: antiquewhite;
+}
+
+.figure::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
